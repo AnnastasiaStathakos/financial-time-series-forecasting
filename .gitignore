@@ -1,0 +1,13 @@
+.env
+venv/
+ENV/
+env/
+
+__pycache__/
+*.py[cod]
+
+.ipynb_checkpoints/
+
+darts_logs/ 
+*.ckpt
+ 
