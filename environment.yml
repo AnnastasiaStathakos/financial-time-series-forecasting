@@ -1,0 +1,20 @@
+name: ECNH26
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - arch-py=8.0.0 
+  - matplotlib=3.10.8
+  - numpy=2.4.2 
+  - pandas=2.3.3  
+  - pip=25.3 
+  - python=3.14.2 
+  - scikit-learn=1.8.0
+  - seaborn=0.13.2 
+  - statsmodels=0.14.6  
+  - u8darts-all=0.42.1  
+  - pip: 
+      - scipy==1.17.1 
+      - yfinance==1.2.0 
