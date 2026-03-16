@@ -2,6 +2,7 @@
 # standard libraries  
 import os
 import sys
+import time
  
 import pandas as pd
 import numpy as np 
@@ -14,6 +15,7 @@ import seaborn as sns
 import yfinance as yf
 
 # import statistics / tests / plots
+import statistics
 import statsmodels.api as sm
 from statsmodels.stats.diagnostic import acorr_ljungbox, het_arch
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
