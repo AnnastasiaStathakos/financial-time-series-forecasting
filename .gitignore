@@ -2,6 +2,7 @@
 venv/
 ENV/
 env/
+venv
 
 __pycache__/
 *.py[cod]
@@ -10,4 +11,8 @@ __pycache__/
 
 darts_logs/ 
 *.ckpt
+
+test.ipynb
+
+.gitignore
  
